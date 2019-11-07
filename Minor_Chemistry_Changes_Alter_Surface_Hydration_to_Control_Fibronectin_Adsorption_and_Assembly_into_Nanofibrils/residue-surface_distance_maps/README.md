@@ -2,7 +2,9 @@ The scripts shared here are tools used in the publication https://onlinelibrary.
 
 Please use with care and read the entire file before using it. Otherwise it might give misleading data or even overwrite existing files.
 
-Please ensure you have access to the right libraries (MDAnalysis, matplotlib, numpy). 
+Please ensure you have access to the right libraries (MDAnalysis, matplotlib, numpy, python).
+
+After adjusting the python scripts, python the command "python mindist_res.py" to execute them. 
 
 Please cite the following publication if you find this script useful:
 Bieniek, M. K. et al. (2019) ‘Minor Chemistry Changes Alter Surface Hydration to Control Fibronectin Adsorption and Assembly into Nanofibrils’, Advanced Theory and Simulations. John Wiley & Sons, Ltd, p. 1900169. doi: 10.1002/adts.201900169.
