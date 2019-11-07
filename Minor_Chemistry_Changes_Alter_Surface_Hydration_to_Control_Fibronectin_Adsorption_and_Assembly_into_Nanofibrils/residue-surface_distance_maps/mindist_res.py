@@ -35,8 +35,8 @@ from MDAnalysis.analysis.distances import distance_array
 import numpy as np
 
 # open the trajectory with MDAnalysis
-u = MDAnalysis.Universe('/home/dresio/phd/sams_fn/ea10/500ns_protCent_pbcMol.gro',
-                        '/home/dresio/phd/sams_fn/ea10/500ns_centCA_pbcMol_step100ps.xtc')
+u = MDAnalysis.Universe('500ns_protCent_pbcMol.gro',
+                        '500ns_centCA_pbcMol_step100ps.xtc')
 # select the atoms in the substrate that are found on the surface
 substrate = u.select_atoms("resname EA and (name C11 O1 O2 C12 C13)")
 print ('Selected', substrate)
@@ -58,7 +58,7 @@ assert len(protein.residues) == len(residues), 'There should be heavy atom indic
 
 data = []
 # adjust the step of the trajectory
-for ts in u.trajectory[::10]:
+for ts in u.trajectory[::1]:
     row = [ts.time, ]
     for res_hatoms in residues:
         # find the minimum distance from the heavy residues to the substrate

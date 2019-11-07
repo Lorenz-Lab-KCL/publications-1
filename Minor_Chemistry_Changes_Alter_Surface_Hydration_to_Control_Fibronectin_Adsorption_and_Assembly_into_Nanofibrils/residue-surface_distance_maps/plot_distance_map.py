@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Visualise the distance map of the FnIII 9-10 adsorption to the SAMs calculated
-with a separate script.
-
+Visualise the distance map representing residues-surface distances calculated using the
+accompanying python script.
 
 Please cite the following publication if you find this script useful:
 Bieniek, M. K. et al. (2019) ‘Minor Chemistry Changes Alter Surface Hydration to Control Fibronectin Adsorption and Assembly into Nanofibrils’, Advanced Theory and Simulations. John Wiley & Sons, Ltd, p. 1900169. doi: 10.1002/adts.201900169.
