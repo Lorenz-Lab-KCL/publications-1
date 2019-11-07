@@ -38,8 +38,8 @@ data_filepath = "data_distance_map.dat"
 plot_output_filepath = "distance_map.png"
 
 # general configuration for matplotlib
-matplotlib.rcParams.update({'font.size': 14})
-plt.figure(figsize=(10, 4))
+matplotlib.rcParams.update({'font.size': 8})
+plt.figure(figsize=(6, 2))
 # just one plot
 plt.subplot(1, 1, 1)
 plt.title('EA10 Title')
@@ -70,7 +70,7 @@ contactmap = plt.pcolormesh(heatmap, cmap=cm.jet_r, vmin=0, vmax=20)
 tick_indices = np.array(list(range(0, len(resnames) + 1, 20)))
 # shift each label to apply in the middle of its "square"
 # adjust the fontsize of the y ticks
-plt.yticks(tick_indices + 0.5, [resnames[i] for i in tick_indices], fontsize=12)
+plt.yticks(tick_indices + 0.5, [resnames[i] for i in tick_indices], fontsize=6)
 
 # create the legend bar in the figure, the ticks correspond to the distances
 cbar = plt.colorbar(contactmap, ticks=[0, 5, 10, 15, 20], fraction=0.02, pad=0.04)
