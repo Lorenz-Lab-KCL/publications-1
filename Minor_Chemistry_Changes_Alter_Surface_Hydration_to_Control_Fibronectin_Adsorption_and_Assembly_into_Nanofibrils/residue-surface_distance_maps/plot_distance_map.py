@@ -40,7 +40,9 @@ plot_output_filepath = "distance_map.png"
 # general configuration for matplotlib
 matplotlib.rcParams.update({'font.size': 8})
 plt.figure(figsize=(6, 2))
-# just one plot
+# set the style - https://matplotlib.org/3.1.1/gallery/style_sheets/style_sheets_reference.html
+#plt.style.use("ggplot")
+# one plot in x dimension, one in y, and select the first plot
 plt.subplot(1, 1, 1)
 plt.title('EA10 Title')
 plt.xlabel('Time (ns)')
