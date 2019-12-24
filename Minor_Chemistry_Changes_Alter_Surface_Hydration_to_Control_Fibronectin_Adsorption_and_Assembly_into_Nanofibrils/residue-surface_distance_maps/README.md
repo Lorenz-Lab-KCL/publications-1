@@ -14,7 +14,6 @@ Bibtex:
 @article{Bieniek2019,
 author = {Bieniek, Mateusz K. and Llopis‐Hernandez, Virginia and Douglas, Katie and Salmeron‐Sanchez, Manuel and Lorenz, Christian D.},
 doi = {10.1002/adts.201900169},
-file = {:home/dresio/Downloads/de/Bieniek{\_}et{\_}al-2019-Advanced{\_}Theory{\_}and{\_}Simulations.pdf:pdf},
 issn = {2513-0390},
 journal = {Advanced Theory and Simulations},
 keywords = {fibrillogenesis,fibronectin,material‐driven fibrillogenesis,molecular dynamics,surface hydration},
